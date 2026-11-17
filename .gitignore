@@ -1,0 +1,15 @@
+.DS_Store
+.venv/
+__pycache__/
+*.py[cod]
+node_modules/
+.tmp_*/
+/zk_artifacts_sig_fast/
+/third_party/build/
+/third_party/local/
+/third_party/src/
+*.ptau
+*.zkey
+*.wtns
+.env
+.env.*

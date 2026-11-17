@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "If you use this research artifact, please cite the accompanying paper."
+type: software
+title: "RWACred: Secure and Efficient Asset Credentials for Decentralized Real World Assets"
+authors:
+  - given-names: Mingyang
+    family-names: Zhao
+  - given-names: Zhiyuan
+    family-names: Hu
+  - given-names: Haojun
+    family-names: Xuan
+  - given-names: Chenyu
+    family-names: Di
+  - given-names: Siu Ming
+    family-names: Yiu
+  - given-names: Bin
+    family-names: Xiao
+repository-code: "https://github.com/Academic-Paper-Codes/RWACred-ZKP"
+preferred-citation:
+  type: conference-paper
+  title: "RWACred: Secure and Efficient Asset Credentials for Decentralized Real World Assets"
+  authors:
+    - given-names: Mingyang
+      family-names: Zhao
+    - given-names: Zhiyuan
+      family-names: Hu
+    - given-names: Haojun
+      family-names: Xuan
+    - given-names: Chenyu
+      family-names: Di
+    - given-names: Siu Ming
+      family-names: Yiu
+    - given-names: Bin
+      family-names: Xiao
+  conference:
+    name: "2026 IEEE Global Communications Conference (GLOBECOM)"
+  year: 2026

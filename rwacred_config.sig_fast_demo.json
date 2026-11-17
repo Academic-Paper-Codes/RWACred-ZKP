@@ -1,0 +1,42 @@
+{
+  "security_lambda": 128,
+  "max_users": 8,
+  "users_per_block": 4,
+  "rng_seed": 20260204,
+  "pairing_backend": "pypbc",
+  "group_signature_backend": "bbs04",
+  "zk_backend": "groth16_snarkjs",
+  "snarkjs_cmd": "scripts/snarkjs_local.sh",
+  "groth16_wasm_path": "zk_artifacts_sig_fast/circuit.wasm",
+  "groth16_zkey_path": "zk_artifacts_sig_fast/circuit_final.zkey",
+  "groth16_vkey_path": "zk_artifacts_sig_fast/verification_key.json",
+  "groth16_input_template": "zk_artifacts_sig_fast/input_template.example.json",
+  "owner_uid": 4,
+  "policy": [1, 2, 4, 6],
+  "non_designated_uid": 3,
+  "register_user_ids": [1, 2, 3, 4, 5, 6, 7, 8],
+  "user_secret_x": {
+    "1": 101,
+    "2": 107,
+    "3": 109,
+    "4": 113,
+    "5": 127,
+    "6": 131,
+    "7": 137,
+    "8": 139
+  },
+  "credgen_randomness": {
+    "r": 149,
+    "s": 151
+  },
+  "valuation_threshold": 300000,
+  "asset_message": {
+    "issuer_ax": "896065755305476401461808354247786946163791272593759545333566916722200930274",
+    "issuer_ay": "15593827579675188521151566336279301697448277351142408636415170229435131417113",
+    "valuation": "500000",
+    "legal_status": "1",
+    "sig_r8x": "20722728506189859844990756499612982569755436904136666335478600754900322777529",
+    "sig_r8y": "104324383315418146201260950482647981843060107095176038721351002293185510361",
+    "sig_s": "1842478306805075743472913613381281041406278442007096498159918739350829513522"
+  }
+}
