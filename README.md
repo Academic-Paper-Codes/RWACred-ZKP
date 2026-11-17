@@ -14,6 +14,7 @@ Run these commands from the repository root.
 python3 -m venv .venv
 source .venv/bin/activate
 npm ci
+chmod +x scripts/snarkjs_local.sh
 bash scripts/setup_pypbc.sh
 bash scripts/build_groth16_artifacts.sh
 python run_rwacred_demo.py
